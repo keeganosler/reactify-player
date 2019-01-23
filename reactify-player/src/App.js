@@ -37,14 +37,19 @@ class App extends Component {
       return (
           <div className="App">
              <div className="App-header">
-                <h2>Spotify Web Player by Keegan</h2>
+                <h2>Spotify Web Player</h2>
+                <div className="buttongroup">
+                    <button><a href="https://keeganosler.com"><i class="fa fa-user"></i></a></button>
+                    <button><a href=""><i class="fa fa-github"></i></a></button>
+                    <button><a href=""><i class="fa fa-linkedin"></i></a></button>
+                </div>
              </div>
              {error && <p>Error: {error}</p>}
              {loggedIn ?
               (<div>
-                <p>Artist: {artistName}</p>
-                <p>Song: {trackName}</p>
-                <p>Album: {albumName}</p>
+                <h5>Currently Playing:</h5><h4>{trackName}</h4>
+                <h5>By:</h5><h4>{artistName}</h4>
+                <h5>From the Album:</h5><h4>{albumName}</h4>
                 <p>
                     <button onClick={() => this.onPrevClick()}><i class="fa fa-backward"></i></button>
                     <button onClick={() => this.onPlayClick()}>{playing ? <i class="fa fa-pause"></i> : <i class="fa fa-play-circle"></i>}</button>
@@ -53,12 +58,12 @@ class App extends Component {
               </div>)
               :
               (<div>
-                <p className="App-intro">
+                <h3 className="App-intro">
                     Enter your Spotify access token. Get it from{" "}<a href="https://beta.developer.spotify.com/documentation/web-playback-sdk/quick-start/#authenticating-with-spotify">here</a>.
-                </p>
-`               <p>
+                </h3><h3>You will need a Spotify account to proceed.</h3>
+`               <h3>
                     <input type="text" value={token} onChange={e => this.setState({ token: e.target.value })} />
-                </p>
+                </h3>
                 <p>
                     <button onClick={()=>this.handleLogin()}>Go!</button>
                 </p>
