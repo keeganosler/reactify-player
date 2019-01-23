@@ -37,8 +37,7 @@ class App extends Component {
       return (
           <div className="App">
              <div className="App-header">
-                <h2>Currently Playing..</h2>
-                <p>Spotify Web Player by Keegan</p>
+                <h2>Spotify Web Player by Keegan</h2>
              </div>
              {error && <p>Error: {error}</p>}
              {loggedIn ?
@@ -47,9 +46,9 @@ class App extends Component {
                 <p>Song: {trackName}</p>
                 <p>Album: {albumName}</p>
                 <p>
-                    <button onClick={() => this.onPrevClick()}>Previous</button>
-                    <button onClick={() => this.onPlayClick()}>{playing ? "Pause" : "Play"}</button>
-                    <button onClick={() => this.onNextClick()}>Next</button>
+                    <button onClick={() => this.onPrevClick()}><i class="fa fa-backward"></i></button>
+                    <button onClick={() => this.onPlayClick()}>{playing ? <i class="fa fa-pause"></i> : <i class="fa fa-play-circle"></i>}</button>
+                    <button onClick={() => this.onNextClick()}><i class="fa fa-forward"></i></button>
                 </p>
               </div>)
               :
