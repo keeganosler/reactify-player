@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,7 +66,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# reactify-player
-Spotify music player app.
->>>>>>> e433e384a6e6b0acf7eb223d56f1ff2c52d176e9
