@@ -52,7 +52,7 @@ class App extends Component {
                 <h5>From the Album:</h5><h4>{albumName}</h4>
                 <p>
                     <button onClick={() => this.onPrevClick()}><i class="fa fa-backward"></i></button>
-                    <button onClick={() => this.onPlayClick()}>{playing ? <i class="fa fa-pause"></i> : <i class="fa fa-play-circle"></i>}</button>
+                    <button onClick={() => this.onPlayClick()}>{playing ? <i class="fa fa-pause"></i> : <i class="fa fa-play"></i>}</button>
                     <button onClick={() => this.onNextClick()}><i class="fa fa-forward"></i></button>
                 </p>
               </div>)
