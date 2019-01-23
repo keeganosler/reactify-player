@@ -9,13 +9,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height:30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: cadetblue;
 }
 
 .App-link {
@@ -29,4 +29,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App button{
+    margin:5px;
+    padding:5px;
+    border: solid cadetblue;
+    border-radius: 6px;
+    background-color: cadetblue;
+    font-size:1.5em;
+}
+
+p{
+    font-size:1.5em;
 }
