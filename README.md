@@ -1,5 +1,5 @@
 # reactify-player
-This is a Spotify web player app created using React and Spotify's web API.
+This is a Spotify web player app created using React and Spotify's web API. To access the online version, click [here](https://keeganosler.github.io/reactify-player).
 
 ## Instructions
 To use this app you will need to have a Spotify account (free or premium) in order to obtain the Spotify access token needed to use the web player.  It will look like the following:
