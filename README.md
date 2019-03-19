@@ -6,7 +6,7 @@ To use this app you will need to have a Spotify account (free or premium) in ord
 
 ![screenshot](https://github.com/keeganosler/reactify-player/blob/master/auth.JPG)
 
-Once you have pasted this access token in to the box, start playing Spotify on your mobile device.
+Once you have pasted this access token in to the box, start playing Spotify on your mobile device.  I suggest opening the page for accessing your token in a new tab from the one the player is being hosted on in order to make the copy/pasting process easier.
 
 Select "Devices Available" then choose "Keegan's Spotify Player" to begin playing music through the Reactify Player. It will look something like this:
 
