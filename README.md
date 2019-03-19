@@ -13,7 +13,7 @@ Select "Devices Available" then choose "Keegan's Spotify Player" to begin playin
 ![screenshot](https://github.com/keeganosler/reactify-player/blob/master/webplayer.JPG)
 
 ## Future Work and Extensions
-I would like to enable this further to pull the album artwork as well as the song name, artist name and album title.
+I would like to enable this further to pull the album artwork as well as the song name, artist name and album title.  Implementing a draggable/scrollable song progress bar as well would also be useful.
 
 ## Acknowledgements
 
